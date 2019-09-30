@@ -8,6 +8,9 @@
     margin-left:0px;
     padding:5px;
 }
+li{
+     list-style: none;
+}
 .links a{
     font-size:14px;
     text-decoration: none;
@@ -72,4 +75,30 @@
      top:60%;
      left:47%;
      transform:translate(-50%, -50%);
+}
+footer{
+    position: fixed;
+    bottom:0%;
+    width:100%;
+    background-color:rgb(238, 238, 238);
+    padding:15px 10px;
+}
+.footer-nav{
+     display:flex;
+    align-items: center;
+}
+.footer-links{
+    display:flex;
+}
+.left-sec{
+   flex:1;
+}
+.right-sec{
+    padding-right: 20px;
+}
+#right-links li,
+#left-links li {
+    padding-left:10px;
+    font-size:14px;
+    color:#575757;
 }
