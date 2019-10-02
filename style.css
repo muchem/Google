@@ -12,7 +12,7 @@ li{
      list-style: none;
 }
 .links a{
-    font-size:14px;
+    font-size:13px;
     text-decoration: none;
     color: rgb(20, 20, 20);
 }
@@ -72,9 +72,18 @@ li{
 }
 .grid-container{
      position: relative;
-     top:60%;
-     left:47%;
+     top:100%;
+     left:48%;
      transform:translate(-50%, -50%);
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     margin-top:25px;
+       grid-column-gap: 25px;
+       grid-row-gap: 25px;
+}
+.recent-logo{
+   
 }
 footer{
     position: fixed;
