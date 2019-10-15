@@ -77,25 +77,6 @@ li{
 #letter:hover{
     cursor: pointer;
 }
-.grid-container{
-     position: relative;
-     top:100%;
-     left:30%;
-     transform:translate(-50%, -50%);
-     display:grid;
-     grid-template-columns: 60px 60px 60px 60px;
-     grid-template-rows: 100px 100px;
-     margin-top:50px;
-    grid-column-gap: 50px;
-    grid-row-gap: 18px;
-}
-.box{
-  height:60px;
-}
-.recent-logo{
-    height:100%;
-    width:100%;
-}
 footer{
     position: fixed;
     bottom:0%;
